@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://pete-lambda.github.io/lambda-docusaurus-poc',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +21,8 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'pete-lambda', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'lambda-docusaurus-poc', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -46,7 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/pete-lambda/lambda-docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/pete-lambda/lambda-docusaurus-poc/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: false, // Optional: disable the blog plugin //
         theme: {
@@ -120,7 +121,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/pete-lambda/lambda-docusaurus',
+                href: 'https://github.com/pete-lambda/lambda-docusaurus-poc',
               },
             ],
           },
