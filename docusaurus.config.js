@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'https://pete-lambda.github.io',
+  url: 'https://pete-lambda.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/lambda-docusaurus-poc/',
@@ -77,7 +77,7 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'}, 
           {
-            href: 'https://github.com/pete-lambda/lambda-docusaurus',
+            href: 'https://pete-lambda.github.io/lambda-docusaurus-poc',
             label: 'GitHub',
             position: 'right',
           },
