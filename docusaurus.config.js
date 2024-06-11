@@ -23,6 +23,7 @@ const config = {
   organizationName: 'pete-lambda', // Usually your GitHub org/user name.
   projectName: 'lambda-docusaurus-poc', // Usually your repo name.
   deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
